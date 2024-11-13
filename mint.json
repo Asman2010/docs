@@ -1,36 +1,37 @@
 {
-  "$schema": "https://mintlify.com/schema.json",
   "name": "Pristine Pathway",
+  "theme": "venus",
   "search": {
-    "prompt": "Ask Anything...",
-    "location": "top"
+    "placeholder": "Search Pristine Pathway docs..."
   },
   "logo": {
     "dark": "/logo/dark.svg",
     "light": "/logo/light.svg"
   },
+  "modeToggle": {
+    "default": "dark",
+    "isHidden": false
+  },
+  "feedback": {
+    "suggestEdit": true,
+    "raiseIssue": true,
+    "thumbsRating": true
+  },
   "favicon": "/favicon.svg",
   "colors": {
-    "primary": "#0D9373",
-    "light": "#07C983",
-    "dark": "#0D9373",
+    "primary": "#11998e",
+    "light": "#38ef7d",
+    "dark": "#11998e",
     "anchors": {
-      "from": "#0D9373",
-      "to": "#07C983"
+      "from": "#11998e",
+      "to": "#38ef7d"
     }
   },
-  "topbarCtaButton": {
-    "name": "Welcome",
-    "url": "https://dashboard.mintlify.com"
-  },
-  "anchors": [
-    {
-      "name": "Release Notes",
-      "icon": "newspaper",
-      "url": "https://mintlify.com/blog"
-    }
-  ],
   "navigation": [
+    {
+      "group": "Get Started",
+      "pages": ["introduction", "quickstart"]
+    },
     {
       "group": "Teacher's Panel",
       "pages": [
@@ -39,6 +40,36 @@
         "teachers-panel/report-generation",
         "teachers-panel/feedback"
       ]
+    }
+  ],
+  "primaryTab": {
+    "name": "Get Started"
+  },
+  "topbarLinks": [
+    {
+      "name": "Login to App",
+      "url": "https://app.pristinepathway.com"
+    }
+  ],
+  "topbarCtaButton": {
+    "name": "Get Started",
+    "url": "https://app.pristinepathway.com/signup"
+  },
+  "anchors": [
+    {
+      "name": "Release Notes",
+      "icon": "newspaper",
+      "url": "https://mintlify.com/blog"
+    },
+    {
+      "name": "Teacher Portal",
+      "icon": "chalkboard-user",
+      "url": "https://teacher.pristinepathway.com"
+    },
+    {
+      "name": "Student Portal",
+      "icon": "user-graduate",
+      "url": "https://student.pristinepathway.com"
     }
   ]
 }
