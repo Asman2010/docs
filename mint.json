@@ -2,7 +2,7 @@
   "name": "Pristine Pathway",
   "theme": "venus",
   "search": {
-    "placeholder": "Search Pristine Pathway docs..."
+    "prompt": "Search Pristine Pathway docs..."
   },
   "logo": {
     "dark": "/logo/dark.svg",
@@ -37,17 +37,29 @@
       "pages": [
         "teachers-panel/overview",
         "teachers-panel/point-management",
-        "teachers-panel/report-generation",
-        "teachers-panel/feedback"
+        "teachers-panel/report-generation"
       ]
+    },
+    {
+      "group": "Student's Panel",
+      "pages": [
+        "students-panel/login",
+        "students-panel/dashboard",
+        "students-panel/rewards",
+        "students-panel/comments"
+      ]
+    },
+    {
+      "group": "Shared Features",
+      "pages": ["shared-features/feedback"]
     }
   ],
   "primaryTab": {
-    "name": "Get Started"
+    "name": "Login to Teacher's Portal"
   },
   "topbarLinks": [
     {
-      "name": "Login to App",
+      "name": "Login to Student's Portal",
       "url": "https://app.pristinepathway.com"
     }
   ],
