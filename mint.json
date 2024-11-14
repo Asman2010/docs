@@ -4,6 +4,9 @@
   "search": {
     "prompt": "Search Pristine Pathway docs..."
   },
+  "background": {
+    "style": "windows"
+  },
   "logo": {
     "dark": "/logo/dark.svg",
     "light": "/logo/light.svg"
@@ -55,7 +58,7 @@
     }
   ],
   "primaryTab": {
-    "name": "Login to Teacher's Portal"
+    "name": "Get Started"
   },
   "topbarLinks": [
     {
@@ -64,24 +67,36 @@
     }
   ],
   "topbarCtaButton": {
-    "name": "Get Started",
+    "name": "Login To Teacher's Portal",
     "url": "https://app.pristinepathway.com/signup"
   },
   "anchors": [
     {
       "name": "Release Notes",
       "icon": "newspaper",
-      "url": "https://mintlify.com/blog"
+      "url": "https://mintlify.com/blog",
+      "iconType": "regular"
     },
     {
       "name": "Teacher Portal",
       "icon": "chalkboard-user",
-      "url": "https://teacher.pristinepathway.com"
+      "url": "https://teacher.pristinepathway.com",
+      "iconType": "regular"
     },
     {
       "name": "Student Portal",
       "icon": "user-graduate",
-      "url": "https://student.pristinepathway.com"
+      "url": "https://student.pristinepathway.com",
+      "iconType": "regular"
     }
-  ]
+  ],
+  "topAnchor": {
+    "name": "Home",
+    "icon": "house"
+  },
+  "footerSocials": {
+    "website": "https://www.pristinepublicschools.com/",
+    "github": "https://github.com/pristine-school-dev",
+    "youtube": "https://www.youtube.com/@PristinePublicSchool"
+  }
 }
